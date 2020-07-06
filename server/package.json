@@ -1,0 +1,40 @@
+{
+    "name": "Amazo",
+    "version": "1.0.0",
+    "description": "A Media Streaming App",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "start:prod": "SET NODE_ENV=production & nodemon server.js",
+        "debug": "ndb server.js"
+    },
+    "keywords": [
+        "Media",
+        "Streaming"
+    ],
+    "author": "BIT Stack",
+    "license": "ISC",
+    "documentation": "https://documenter.getpostman.com/view/8937191/SzzrXZMB",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "config": "^3.2.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.7-alpha.3",
+        "express-validator": "^6.4.0",
+        "formidable": "^1.2.2",
+        "get-audio-duration": "^2.0.2",
+        "gridfs-stream": "^1.1.1",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.15",
+        "mongoose": "^5.9.1",
+        "request": "^2.88.2",
+        "sharp": "^0.25.3",
+        "validator": "^13.0.0"
+    },
+    "engines": {
+        "node": "^10"
+    }
+}
